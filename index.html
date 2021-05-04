@@ -19,14 +19,15 @@
         <section id='left-sec'>
             <form id="form">
                 <label for="donorName"><b> Donor Name </b> </label>
-                <input type="text" id='donorName'>
+                <input type="text" id='donorName' required>
                 <br>
                 <label for="amount"><b> Amount</b></label>
                 <select id="amount">
-                    <option value="100"> 100 </option>
-                    <option value="500"> 500 </option>
-                    <option value="1000"> 1000 </option>
+                    <option value="100"  required > 100  </option>
+                    <option value="500" required > 500 </option>
+                    <option value="1000" required > 1000 </option>
                 </select>
+                <input type="submit" id='submit' value="submit">
             </form>
         </section>
 
